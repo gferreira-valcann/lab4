@@ -1,4 +1,9 @@
 #!/bin/bash
-nomeApp="lab4-app"
+#nomeApp="lab4-app"
 
-sudo supervisorctl stop $nomeApp
+#sudo supervisorctl stop $nomeApp
+set +e
+
+sudo supervisorctl stop lab4-app || true
+
+exit 0
