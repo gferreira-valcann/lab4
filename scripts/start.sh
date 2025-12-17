@@ -1,6 +1,6 @@
 #!/bin/bash
 nomeApp="lab4-app"
-cd /appdir
+cd ../
 npm install
 
 sudo supervisord
